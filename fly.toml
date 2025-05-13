@@ -1,0 +1,6 @@
+app = "your-n8n-app-name"
+[build]
+  dockerfile = "Dockerfile"
+[http_service]
+  internal_port = 5678
+  force_https = true
